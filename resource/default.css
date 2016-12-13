@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'pSans';
+    src: url('/Product.ttf');
+}
+
+p{
+  font-family: 'pSans' , sans-serif;
+}
