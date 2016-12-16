@@ -3,6 +3,6 @@
     src: url('/Product.ttf');
 }
 
-p{
+body{
   font-family: 'pSans' , sans-serif;
 }
