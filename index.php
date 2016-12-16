@@ -1,23 +1,29 @@
-<html>
+<?php
 
-<head>
-
-<?php include 'resource/head.php' ?>
-
-<style>
-
-p{
-  font-size: 2em;
+if(file_exists("install/index.php")){
+	//perform redirect if installer files exist
+	//this if{} block may be deleted once installed
+	header("Location: install/index.php");
 }
 
-</style>
+require_once 'users/init.php';
+require_once $abs_us_root.$us_url_root.'users/includes/header.php';
+require_once $abs_us_root.$us_url_root.'users/includes/navigation.php';
+?>
 
-</head>
+<div id="page-wrapper">
+<div class="container">
 
-<body>
 
-<p>This is a sample page 4 the TrumpTracker. If this is working, you should see this text in the pSans font.</p>
 
-</body>
+</div> <!-- /container -->
 
-</html>
+</div> <!-- /#page-wrapper -->
+
+<!-- footers -->
+<?php require_once $abs_us_root.$us_url_root.'users/includes/page_footer.php'; // the final html footer copyright row + the external js calls ?>
+
+<!-- Place any per-page javascript here -->
+
+
+<?php require_once $abs_us_root.$us_url_root.'users/includes/html_footer.php'; // currently just the closing /body and /html ?>
