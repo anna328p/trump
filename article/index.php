@@ -1,10 +1,8 @@
-<html>
+<?php include '../resource/head.php' ?>
 
-<head>
-<?php require '../resource/head.php' ?>
-
-</head>
 <body>
+
+<?php include '../resource/html/header.php' ?>
 
 <div class="header">
   <h1>(Issue)</h1>
@@ -24,6 +22,3 @@
 </div>
 
 </body>
-
-
-</html>

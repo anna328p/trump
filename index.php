@@ -1,10 +1,1 @@
-<html>
-	<head>
-			<?php include 'resource/head.php' ?>
-	</head>
-
-	<body>
-		<p>Hello there</p>
-	</body>
-
-</html>
+<meta http-equiv="refresh" content="0; URL='/home'" />
