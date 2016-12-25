@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'pSans';
-    src: url('/Product.ttf');
+    src: url('./Product.ttf');
 }
 
 body{

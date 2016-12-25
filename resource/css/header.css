@@ -1,0 +1,10 @@
+#header{
+  width: 100%;
+  background-color: lightyellow;
+}
+
+#dtLogo{
+  width: 40%;
+  max-width: 300px;
+  min-width:200px;
+}
