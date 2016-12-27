@@ -1,10 +1,13 @@
-<?php require './../resource/head.php' ?>
+<?php
+  $ignorelogin='yes';
+  require './../resource/head.php' ?>
 
 <head>
 
 <title>Welcome</title>
 
 <link rel="stylesheet" href="../home/css/style.css">
+<script src="../home/js/init.js"></script>
 
 </head>
 
@@ -15,62 +18,11 @@
 
 <div class = "container">
 
-<?php require '../home/comp/mainscore.php' ?>
+<?php require '../home/comp/mobile.php' ?>
+<?php require '../home/comp/tableoutline.php' ?>
+<?php require '../home/comp/scrolltest.php' ?>
 
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
-<p>Testing</p>
+
 
 
 </div>

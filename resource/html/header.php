@@ -9,7 +9,7 @@
 
 	<div class="header-limiter">
 
-		<a href="/"><h1 class = "noselect">donaldtracker</h1></a>
+		<a href='/'><img id="logo" src="/resource/images/logos/whitelogo.png"></a>
 
 		<!--<nav>
 			<a href="#">Home</a>
@@ -17,10 +17,25 @@
 			<a href="#">Pricing</a>
 		</nav>-->
 
+<?php
+	session_start();
+	if (!isset($_SESSION['username'])) { ?>
 		<ul>
-			<li><a href="/login/login/">Login</a></li>
-			<li><a href="#">Sign up</a></li>
+			<li><a href="/login/login/main_login.php">Login</a></li>
+			<li><a href="/login/login/signup.php">Sign up</a></li>
 		</ul>
+
+	<?php }
+
+	else{ ?>
+		<ul>
+			<li><?php echo $_SESSION['username'] ?></li>
+			<li><a href="/login/login/logout.php">Logout</a></li>
+		</ul>
+	<?php }
+
+
+	?>
 
 	</div>
 
