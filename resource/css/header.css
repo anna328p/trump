@@ -1,16 +1,20 @@
+#leftside{
+	margin-top: -12px;
+}
 
 #logo{
-	width: 250px;
+	width: 200px;
 	float: left;
-	margin-top: -3px;
+	margin-top: 4px;
 }
 
 
 .header-login-signup{
+	opacity: 0.98;
 	background-color:#292c2f;
 	box-shadow:0 1px 1px #ccc;
 	padding: 20px 40px;
-	height: 80px;
+	height: 60px;
 	color: #ffffff;
 	box-sizing: border-box;
 }
@@ -124,8 +128,8 @@
 	}
 
 	#logo{
-		width: 200px;
-		margin-top: -18px;
+		width: 150px;
+		margin-top: -2px;
 	}
 
 

@@ -11,7 +11,7 @@ if($ignorelogin!='yes'){
 
 <head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="icon" href="/resource/images/logos/whitelogo.png" type="image/gif" sizes="16x16">
 
@@ -26,6 +26,9 @@ if($ignorelogin!='yes'){
 <!--Stickyheader.js-->
 <script src ='/resource/js/header/stickheader.js'></script>
 
+<!--Flip.js-->
+<script src ='/resource/js/flip.js'></script>
+
 <!--Default.js-->
 <script src='/resource/default.js'></script>
 
@@ -33,6 +36,10 @@ if($ignorelogin!='yes'){
 <?php if($material!='block'){?>
 <link rel='stylesheet' type='text/css' href='/resource/materialize/css/materialize.min.css'>
 <?php } ?>
+
+<!--Animate.css-->
+<link rel='stylesheet' type='text/css' href='/resource/css/animate.css'>
+
 
 <!--Default.css-->
 <link rel='stylesheet' type='text/css' href='/resource/default.css'>

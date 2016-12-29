@@ -16,7 +16,7 @@
 			<a href="#" class="selected">Blog</a>
 			<a href="#">Pricing</a>
 		</nav>-->
-
+<div id = "leftside">
 <?php
 	session_start();
 	if (!isset($_SESSION['username'])) { ?>
@@ -36,6 +36,7 @@
 
 
 	?>
+</div>
 
 	</div>
 

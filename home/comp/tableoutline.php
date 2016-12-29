@@ -3,19 +3,19 @@
 
 <tr>
 
-<td id ='leftsection'><!--left section-->
+<td class="thirds" id ='leftsection'><!--left section-->
 
 <?php require 'left.php' ?>
 
 </td>
 
-<td id ='middlesection'><!--middle section-->
+<td class="thirds" id ='middlesection'><!--middle section-->
 
 <?php require 'middle.php' ?>
 
 </td><!--end of middle section-->
 
-<td id ='rightsection'><!--right section-->
+<td class="thirds" id ='rightsection'><!--right section-->
 
 <?php require 'right.php' ?>
 

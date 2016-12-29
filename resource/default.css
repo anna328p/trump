@@ -7,6 +7,10 @@ body{
   font-family: 'pSans' , sans-serif;
 }
 
+.hidden{
+  display: none;
+}
+
 @-ms-viewport{
   width: device-width;
 }

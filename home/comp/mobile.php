@@ -6,5 +6,5 @@
 
 <br><br>
 
-<?php include "left.php" ?>
+<?php include "right.php" ?>
 </div>

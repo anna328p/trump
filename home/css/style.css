@@ -1,5 +1,4 @@
 .smaller{
-  background: lightyellow;
   height: 100px;
   width: 100px;
   text-align: center;
@@ -9,13 +8,23 @@
 
 .larger{
   margin-top: -20px;
-  background: lightyellow;
   height: 200px;
   width: 200px;
   line-height: 200px;
   font-size: 3em;
   text-align: center;
-  margin: 0 auto; 
+  margin: 0 auto;
+}
+
+#lastweek{
+  background: grey;
+  color: white;
+}
+
+
+#lastmonth{
+  background: grey;
+  color: white;
 }
 
 #mainsub{
@@ -23,4 +32,66 @@
   font-size: 19px;
   margin-top: 5px;
   line-height: 30px;
+}
+
+.thirds{
+  width:33%;
+}
+
+.recruitContainer{
+  background-color: #D3D3D3;
+  border-radius: 10px;
+}
+
+#joinUs{
+  text-align: left;
+  width:90%;
+  margin-left: 5%;
+  font-size:19px;
+  color: #696969;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-size: 18px;
+  color: white;
+	text-decoration: none;
+  width: 90%;
+}
+
+.greenButton
+{
+  margin-top: 11px;
+	background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+  white-space: nowrap;
+}
+
+@media screen and (max-width:599px) {
+
+#joinUs{
+  font-size: 14px;
+}
+
+}
+
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
 }

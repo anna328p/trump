@@ -5,7 +5,7 @@
 <td>  <!--Circle here-->
 
 <div class = "circle smaller" id = "lastweek">
--1.2
+0
 </div>
 
 </td>
@@ -19,7 +19,7 @@
 <td>
 
   <div class = "circle smaller" id = "lastmonth">
-  -1.2
+  0
   </div>
 
 </td>
