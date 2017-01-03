@@ -1,4 +1,4 @@
-<div id = "mScore" class = "circle larger">
+<div id = "mScore" class = "circle getScore larger">
 <?php echo $mainScore ?>
-<p id = "mainsub">Current score</p>
 </div>
+<div id = "mainsub">Current score</div>

@@ -45,6 +45,55 @@ $(".circle").hover(function(){
   $(this).addClass(animation);
 });
 
+/*$(".sDataCenter").hover(function(){
+  $(".sDataCenter").addClass("animated pulse");
+});
+
+$(".sNewsWall").hover(function(){
+  $(".sNewsWall").addClass("animated pulse");
+});
+
+$(".sBlog").hover(function(){
+  $(".sBlog").addClass("animated pulse");
+}); */
+
+//For the slider
+
+$("#featuredSlider").lightSlider({
+                keyPress:true,
+                controls: false,
+                slideMargin: 40,
+                responsive: true,
+                autoWidth: true,
+                pager: false
+            });
+
+//To get the slider background-color values working
+$("#listItem1").css("background-color", getColorForPercentage($("#listItem1").text()/10));
+$("#listItem2").css("background-color", getColorForPercentage($("#listItem2").text()/10));
+$("#listItem3").css("background-color", getColorForPercentage($("#listItem3").text()/10));
+$("#listItem4").css("background-color", getColorForPercentage($("#listItem4").text()/10));
+$("#listItem5").css("background-color", getColorForPercentage($("#listItem5").text()/10));
+$("#listItem6").css("background-color", getColorForPercentage($("#listItem6").text()/10));
+$("#listItem7").css("background-color", getColorForPercentage($("#listItem7").text()/10));
+$("#listItem8").css("background-color", getColorForPercentage($("#listItem8").text()/10));
+$("#listItem9").css("background-color", getColorForPercentage($("#listItem9").text()/10));
+$("#listItem10").css("background-color", getColorForPercentage($("#listItem10").text()/10));
+
+
+
+
+  setInterval(function () {
+    if( $('.recentEvent').is(':appeared')){
+      $(".recentEvent").typewriter({
+        speed: 130
+      });
+    }
+  }, 250);
+
+
+//To get that sweet typewriter effect
+
 
 
 }); //jquery end

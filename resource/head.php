@@ -13,7 +13,7 @@ if($ignorelogin!='yes'){
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="icon" href="/resource/images/logos/whitelogo.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="/resource/images/logos/icons/blackicon.png" type="image/gif" sizes="16x16">
 
 <!--jQuery-->
 <script src='/resource/jquerymin311.js'></script>

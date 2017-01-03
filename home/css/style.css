@@ -34,6 +34,13 @@
   line-height: 30px;
 }
 
+@media screen and (max-width: 398px) {
+    .theLegend{
+      display: none;
+    }
+}
+
+
 .thirds{
   width:33%;
 }
@@ -41,6 +48,7 @@
 .recruitContainer{
   background-color: #D3D3D3;
   border-radius: 10px;
+  margin-bottom: 17px;
 }
 
 #joinUs{
@@ -82,16 +90,83 @@
 
 @media screen and (max-width:599px) {
 
-#joinUs{
+  #joinUs{
   font-size: 14px;
-}
+  }
 
 }
-
 
 .action-button:active
 {
 	transform: translate(0px,5px);
   -webkit-transform: translate(0px,5px);
 	border-bottom: 1px solid;
+}
+
+.shortcutTD{
+
+}
+
+.shortcut{
+text-align: center;
+height: 70px;
+line-height: 70px;
+border-radius: 5px;
+color: rgba(255, 255, 255, 0.9);
+white-space: nowrap;
+}
+
+.shortcut:hover{
+  background-color: black;
+}
+
+.sDataCenter{
+  background-color: #22d4d4;
+}
+
+
+.sNewsWall{
+  background-color: #9439ee;
+}
+
+.sBlog{
+  background-color: #0f9e5e;
+}
+
+.featuredC{
+  margin: 0 auto;
+  width:120px;
+  height:120px;
+  line-height: 120px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.featuredS{
+  text-align: center;
+  margin-top: -8px;
+}
+
+.articleContainer{
+  background-color: #D3D3D3;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.recentEvent{
+  margin-left: 5%;
+  color: darkblue;
+  font-size: 20px;
+}
+
+.recentEventDate{
+  text-align: right;
+  margin-right: 10%;
+}
+
+.voteAvailable{
+  margin-left: 5%;
+  margin-top: -20px;
+  font-size:14px;
 }

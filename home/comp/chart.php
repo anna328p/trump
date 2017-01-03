@@ -3,7 +3,7 @@ Trump over time...</div>
 
 <div class ="legendContainer">
   <div class = "row">
-    <div class = "col s2">
+    <div class = "col s2 theLegend">
 
       <ul>
 
@@ -45,7 +45,7 @@ Trump over time...</div>
 
     </div>
 
-    <div class = "col s10">
+    <div class = "col s10 theMainChart">
       <div id = "thechart"></div>
 
     </div>

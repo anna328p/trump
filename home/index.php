@@ -5,7 +5,7 @@
 
 <?php
 
-$mainScore = 5.72;
+$mainScore = 5.3;
 $republicanScore = 7.2;
 $democratScore = 4.5;
 
@@ -19,6 +19,14 @@ $democratScore = 4.5;
 <link rel="stylesheet" href="../home/css/mychart.css">
 <script src ="../resource/js/chart/chart.js"></script>
 <script src="../home/js/mychart.js"></script>
+
+<!--To get that slider in here!-->
+<link rel="stylesheet" href="../resource/css/lightslider.css">
+<script src = "../resource/js/lightslider.js"></script>
+
+<!--To get that sweet typewriter effect -->
+<script src = "../resource/js/appear.js"></script> <!-- This is to have the effect happen when it's on screen -->
+<script src = "../resource/js/typewriter.js"></script>
 
 <!--To add my own things -->
 <link rel="stylesheet" href="../home/css/style.css">
@@ -47,8 +55,9 @@ $democratScore = 4.5;
 <?php if (!isset($_SESSION['username'])) { ?>
 <?php include '../home/comp/recruit.php' ?> <?php
 }?>
-
-
+<?php include '../home/comp/featuredstats.php' ?>
+<?php include '../home/comp/recentarticle.php' ?>
+<?php include '../home/comp/shortcuts.php' ?>
 
 
 
