@@ -1,34 +1,45 @@
 <?php
 
-session_start();
-if (!isset($_SESSION['username'])) {
-    header("location:../../../../../../../../../../../../../../../../../../login/login/main_login.php");
+if($ignorelogin!='yes'){
+  session_start();
+  if (!isset($_SESSION['username'])) {
+      header("location:../../../../../../../../../../../../../../../../../../login/login/main_login.php");
+  }
 }
-
-$mat=$_GET["mat"]
 
  ?>
 
 <head>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" href="/resource/images/logos/icons/blackicon.png" type="image/gif" sizes="16x16">
+
 <!--jQuery-->
 <script src='/resource/jquerymin311.js'></script>
 
 <!--Materialize JS-->
-<?php if($mat!=0){?>
+<?php if($material!='block'){?>
 <script src='/resource/materialize/js/materialize.min.js'></script>
-<?php } ?>
+<?php }?>
 
 <!--Stickyheader.js-->
 <script src ='/resource/js/header/stickheader.js'></script>
+
+<!--Flip.js-->
+<script src ='/resource/js/flip.js'></script>
 
 <!--Default.js-->
 <script src='/resource/default.js'></script>
 
 <!--Materialize CSS-->
-<?php if($mat!=0){?>
+<?php if($material!='block'){?>
 <link rel='stylesheet' type='text/css' href='/resource/materialize/css/materialize.min.css'>
 <?php } ?>
+
+<!--Animate.css-->
+<link rel='stylesheet' type='text/css' href='/resource/css/animate.css'>
+
 
 <!--Default.css-->
 <link rel='stylesheet' type='text/css' href='/resource/default.css'>

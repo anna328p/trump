@@ -1,8 +1,25 @@
 @font-face {
     font-family: 'pSans';
-    src: url('./Product.ttf');
+    src: url('./fonts/Product.ttf');
+}
+
+@font-face {
+    font-family: 'cleanMono';
+    src: url('./fonts/SpaceMono.ttf');
 }
 
 body{
   font-family: 'pSans' , sans-serif;
+}
+
+.hidden{
+  display: none;
+}
+
+.monospace{
+  font-family: 'cleanMono', monospace;;
+}
+
+@-ms-viewport{
+  width: device-width;
 }
