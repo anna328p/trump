@@ -59,9 +59,8 @@ $democratScore = 4.5;
 <?php include '../home/comp/recentarticle.php' ?>
 <?php include '../home/comp/shortcuts.php' ?>
 
-
-
 </div>
 
+<?php include '../resource/html/footer.php' ?>
 
 </body>
