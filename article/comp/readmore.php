@@ -3,12 +3,12 @@
   <div class='links'>
     <ul>
       <li>
-        <img class='logo' src='../article/images/cnn.png'>
+        <img class='logo' width="50%" src='../article/images/cnn.png'>
         (CNN ARTICLE TITLE)
         <img class='logo' src="">
         (FOX NEWS ARTICLE TITLE)
         <img class='logo' src="">
-        (TWITTER HASHTAG (IF APPLICABLE))
+        (TWITTER HASHTAG if applicable)
       </li>
       <li>
 
