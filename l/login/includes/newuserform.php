@@ -14,6 +14,12 @@ class NewUserForm extends DbConn
             $stmt->bindParam(':username', $usr);
             $stmt->bindParam(':email', $email);
             $stmt->bindParam(':password', $pw);
+            $stmt->bindParam(':gender', $gender);
+            $stmt->bindParam(':age', $age);
+            $stmt->bindParam(':location', $location);
+            $stmt->bindParam(':income', $income);
+            $stmt->bindParam(':party', $party);
+            $stmt->bindParam(':ethnicity', $ethnicity);
             $stmt->execute();
 
             $err = '';
