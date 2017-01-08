@@ -12,7 +12,10 @@ $democratScore = 4.5;
  ?>
 <head>
 
-<title>Welcome</title>
+<title>DonaldTracker</title>
+
+<!--Mobile icon for iOS-->
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="../resource/images/logos/icons/whiteicon.png">
 
 <!--To get these fancy charts in here -->
 <link rel="stylesheet" href="../resource/css/chart/chart.css">
