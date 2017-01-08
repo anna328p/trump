@@ -3,7 +3,7 @@
 if($ignorelogin!='yes'){
   session_start();
   if (!isset($_SESSION['username'])) {
-      header("location:../../../../../../../../../../../../../../../../../../login/login/main_login.php");
+      header("location:../../../../../../../../../../../../../../../../../../l/login/main_login.php");
   }
 }
 

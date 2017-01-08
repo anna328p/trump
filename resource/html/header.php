@@ -21,8 +21,8 @@
 	session_start();
 	if (!isset($_SESSION['username'])) { ?>
 		<ul>
-			<li><a href="/login/login/main_login.php">Login</a></li>
-			<li><a href="/login/login/signup.php">Sign up</a></li>
+			<li><a href="/l/login/main_login.php">Login</a></li>
+			<li><a href="/l/login/signup.php">Sign up</a></li>
 		</ul>
 
 	<?php }
