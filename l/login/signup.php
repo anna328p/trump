@@ -60,7 +60,7 @@ if (isset($_SESSION['username'])) {
           <label for "hidden3">State of Residence:</label>
           <input type = "hidden" name ="hidden3">
 
-          <select id = "state" required>
+          <select name = "state" id = "state" required>
             <option value = "Washington">Washington</option>
             <option value = "California">California</option>
           </select>
@@ -68,7 +68,7 @@ if (isset($_SESSION['username'])) {
           <label for "hidden4">Yearly Family Income:</label>
           <input type = "hidden" name ="hidden4">
 
-          <select id = "income" required>
+          <select name = "income" id = "income" required>
             <option value = "nosay">Prefer not to say</option>
             <option value = "1000">Less Than $1000</option>
           </select>
@@ -76,7 +76,7 @@ if (isset($_SESSION['username'])) {
           <label for "hidden5">Political Party:</label>
           <input type = "hidden" name ="hidden5">
 
-          <select id = "party" required>
+          <select name = "party" id = "party" required>
             <option value = "democrat">Democrat</option>
             <option value = "republican">Republican</option>
             <option value = "libretarian">Libretarian</option>
@@ -86,7 +86,7 @@ if (isset($_SESSION['username'])) {
           <label for "hidden6">Ethnicity:</label>
           <input type = "hidden" name ="hidden6">
 
-          <select id = "ethnicity" required>
+          <select name = "ethnicity" id = "ethnicity" required>
             <option value = "red">Red</option>
             <option value = "blue">Blue</option>
 
