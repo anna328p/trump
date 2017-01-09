@@ -29,15 +29,15 @@ if (isset($admin_email)) {
 //Validation rules
 if ($pw1 != $pw2) {
 
-    echo '<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Password fields must match</div><div id="returnVal" style="display:none;">false</div>';
+  header("Location: ../messages/signuperror?title=Passwords don't match!&subtitle=Your fingers must of slipped up!");
 
 } elseif (strlen($pw1) < 4) {
 
-    echo '<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Password must be at least 4 characters</div><div id="returnVal" style="display:none;">false</div>';
+    header('Location: ../messages/signuperror?title=Invalid password!&subtitle=Make sure your password is at least 4 characters. The more the better!');
 
 } elseif (!filter_var($newemail, FILTER_VALIDATE_EMAIL) == true) {
 
-    echo '<div class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Must provide a valid email address</div><div id="returnVal" style="display:none;">false</div>';
+    header('Location: ../messages/signuperror?title=Email not valid!&subtitle=Make sure the email provided is a valid one.');
 
 } else {
     //Validation passed
@@ -52,7 +52,7 @@ if ($pw1 != $pw2) {
         //Success
         if ($response == 'true') {
 
-            echo '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'. $signupthanks .'</div><div id="returnVal" style="display:none;">true</div>';
+          header('Location: ../messages/accountcreated');
 
             //Send verification email
             $m = new MailSender;

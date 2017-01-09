@@ -117,3 +117,12 @@ label.light {
 #signUpNow{
   font-size:70px;
 }
+
+#learnMore{
+  margin-top: -8px;
+}
+
+#learnMore a {
+  text-decoration: none;
+  color: grey;
+}
