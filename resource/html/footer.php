@@ -13,13 +13,13 @@
   <div class="footer-left">
 
     <p class="footer-links">
-      <a href="#">Home</a>
+      <a href="/home">Home</a>
       ·
-      <a href="#">Blog</a>
+      <a href="/blog">Blog</a>
       ·
       <a href="#">About</a>
       ·
-      <a href="#">Article</a>
+      <a href="">Article</a>
       ·
       <a href="#">Contact</a>
     </p>
