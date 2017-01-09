@@ -1,0 +1,27 @@
+.summary {
+  font-style: italic;
+  font-weight: bold;
+}
+.logo {
+  height: 60px;
+  border-radius: 50%;
+}
+.readMoreText {
+  display: inline-block;
+  position: absolute;
+  border: 1px black solid; /**/
+
+}
+.links ul li {
+  position: relative;
+  border: 1px black solid;/**/
+}
+.readMore {
+  font-size: 35px;
+}
+.title {
+  font-size: 60px;
+}
+.date {
+font-size: 20px;
+}

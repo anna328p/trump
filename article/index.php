@@ -1,24 +1,22 @@
-<?php include '../resource/head.php' ?>
-
+<?php
+$ignorelogin = 'yes';
+require '../resource/head.php'
+?>
+<head>
+  <title>Article View</title>
+  <link rel="stylesheet" href="../article/css/style.css">
+</head>
 <body>
 
 <?php include '../resource/html/header.php' ?>
 
-<div class="header">
-  <h1>(Issue)</h1>
-  <br>
-  <br>
-  <h5>(Date)</h5>
-</div>
-<div class="container">
-  <div class="row">
-  <div class="col s6" id="summary">This div is 6-columns wide</div>
-  <div class="col s6" id="video">This div is 6-columns wide</div>
-  <div class="col s6" id="summary">This div is 6-columns wide</div>
-  <div class="col s6" id="video">This div is 6-columns wide</div>
-
+<div class='container'>
+  <?php include '../article/comp/title.php' ?>
+  <?php include '../article/comp/tableoutline.php' ?>
+  <?php include '../article/comp/ratingsubmission.php' ?>
 
 </div>
-</div>
+
+<?php require '../resource/html/footer.php' ?>
 
 </body>
