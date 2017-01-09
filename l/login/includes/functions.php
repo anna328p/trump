@@ -59,11 +59,11 @@ function mySqlErrors($response)
     switch (substr($response, 0, 22)) {
 
         case 'Error: SQLSTATE[23000]':
-            echo "<div class=\"alert alert-danger alert-dismissable\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>Email already exists</div>";
+            header('Location: ../messages/signuperror?title=Email already taken.&subtitle=Either login or try another email.');
             break;
 
         default:
-            echo "<div class=\"alert alert-danger alert-dismissable\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>An error occurred... try again</div>";
-
+            header('Location: ../messages/signuperror?title=An error occured.&subtitle=Please try again.');
+            break;
     }
 };

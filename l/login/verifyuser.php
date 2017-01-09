@@ -30,11 +30,13 @@ if (isset($uid) && !empty(str_replace(' ', '', $uid)) && isset($verify) && !empt
 
     //Success
     if ($vresponse == 'true') {
-        echo $activemsg;
 
         //Send verification email
         $m = new MailSender;
         $m->sendMail($email, $username, $uid, 'Active');
+
+        echo "<script>window.location = '../messages/verified'</script>";
+
     } else {
         //Echoes error from MySQL
         echo $vresponse;
