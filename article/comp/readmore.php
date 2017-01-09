@@ -1,21 +1,25 @@
 <div class='readMore'>
   Read More
+</div>
   <div class='links'>
     <ul>
       <li>
-        <img class='logo' width="50%" src='../article/images/cnn.png'>
-        (CNN ARTICLE TITLE)
-        <img class='logo' src="">
-        (FOX NEWS ARTICLE TITLE)
-        <img class='logo' src="">
-        (TWITTER HASHTAG if applicable)
+        <img class='logo' src='../article/media/cnn.png'>
+        <div class="readMoreText">
+          Common Core = Common Bore?
+        </div>
       </li>
       <li>
-
+        <img class='logo' src="../article/media/foxnews.jpg">
+        <div class="readMoreText">
+          New Education Reform
+        </div>
       </li>
       <li>
-
+        <img class='logo' src="../article/media/twitter.png">
+        <div class="readMoreText">
+          #CommonNoMore
+        </div>
       </li>
     </ul>
   </div>
-</div>
