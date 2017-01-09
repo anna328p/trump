@@ -1,0 +1,23 @@
+hr {
+    border: none;
+    height: 3px;
+    margin-top: 13px;
+
+    /* Set the hr color */
+    color: grey; /* old IE */
+    background-color: grey /* Modern Browsers */
+}
+
+
+#mainTitle{
+  margin-top: 17px;
+  font-size:6em;
+  line-height: 90px;
+}
+
+#mainSub{
+  font-size: 2em;
+  line-height: 40px;
+  color:grey;
+  margin-top: -2px;
+}
