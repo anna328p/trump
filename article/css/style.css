@@ -3,18 +3,17 @@
   font-weight: bold;
 }
 .logo {
-  height: 60px;
+  height: 50px;
   border-radius: 50%;
 }
 .readMoreText {
   display: inline-block;
+  font-size: 17px;
+  line-height: 50px;
   position: absolute;
-  border: 1px black solid; /**/
-
 }
 .links ul li {
   position: relative;
-  border: 1px black solid;/**/
 }
 .readMore {
   font-size: 35px;
@@ -24,4 +23,10 @@
 }
 .date {
 font-size: 20px;
+}
+.prosCons {
+  font-size: 30px;
+}
+.list {
+  font-size: 20px;
 }

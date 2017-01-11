@@ -5,6 +5,7 @@ require '../resource/head.php'
 <head>
   <title>Article View</title>
   <link rel="stylesheet" href="../article/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
@@ -14,7 +15,6 @@ require '../resource/head.php'
   <?php include '../article/comp/title.php' ?>
   <?php include '../article/comp/tableoutline.php' ?>
   <?php include '../article/comp/ratingsubmission.php' ?>
-
 </div>
 
 <?php require '../resource/html/footer.php' ?>
