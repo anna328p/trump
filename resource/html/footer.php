@@ -21,7 +21,7 @@
       ·
       <a href="">Article</a>
       ·
-      <a href="#">Contact</a>
+      <a href="/pages/contact">Contact</a>
     </p>
 
     <p>DonaldTracker &copy; 2017</p>
