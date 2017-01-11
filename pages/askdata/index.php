@@ -14,7 +14,9 @@ require '../../resource/head.php'
   <div class = 'container'>
     <?php include 'comp/title.php' ?>
     <?php include 'comp/ask.php' ?>
-
+    <?php include 'comp/what.php' ?>
+    <?php include 'comp/do-not.php' ?>
+    <?php include 'comp/signature.php' ?>
   </div>
 <?php require '../../resource/html/footer.php' ?>
 </body>

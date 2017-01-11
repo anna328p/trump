@@ -1,1 +1,3 @@
-<div id = "askTitle">The asking</div>
+<div class = "section otherTitle asking">The asking</div>
+<div class = "otherP">We ask for your data for a variety of reasons. We ask for your data to make DonaldTracker a more reliable and accurate product. We require an email from you for email verification. This helps stop spam and multiple votes from the same user. We also require your age to make sure you are not too young to use our site as well as your gender to get a better idea of who uses our site. The rest of the details are completley optional. We ask them however to get better analytics for our users to provide them with statistics relating to specific groups of people.</div>
+<hr>

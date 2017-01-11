@@ -17,7 +17,7 @@
       ·
       <a href="/blog">Blog</a>
       ·
-      <a href="#">About</a>
+      <a href="/pages/about">About</a>
       ·
       <a href="">Article</a>
       ·
