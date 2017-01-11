@@ -1,15 +1,16 @@
-<?php
+<?php //if they login, bring them to the homepage
+session_start();
+if (isset($_SESSION['username'])) {
+  header("location:/");
+  exit;
+}
+?>
 
+<?php
 $ignorelogin = 'yes';
 $material = 'block';
 require '../../resource/head.php' ?>
 
-<?php
-session_start();
-if (isset($_SESSION['username'])) {
-    header("location:../index.php");
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

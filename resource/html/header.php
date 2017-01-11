@@ -29,7 +29,7 @@
 
 	else{ ?>
 		<ul>
-			<li><?php echo $_SESSION['username'] ?></li>
+			<li> <?php echo $_SESSION["username"] ?></li>
 			<li><a href="/l/login/logout.php">Logout</a></li>
 		</ul>
 	<?php }
