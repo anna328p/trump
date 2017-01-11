@@ -1,4 +1,10 @@
 <?php
+
+$ignorelogin = 'yes';
+$material = 'block';
+require '../../resource/head.php' ?>
+
+<?php
 session_start();
 if (isset($_SESSION['username'])) {
     header("location:../index.php");
@@ -19,7 +25,7 @@ if (isset($_SESSION['username'])) {
     <div class="container">
 
       <form class="form-signin" name="form1" method="post" action="checklogin.php">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">Welcome...</h2>
         <input name="myusername" id="myusername" type="text" class="form-control" placeholder="Email" autofocus>
         <input name="mypassword" id="mypassword" type="password" class="form-control" placeholder="Password">
         <!-- The checkbox remember me is not implemented yet...
