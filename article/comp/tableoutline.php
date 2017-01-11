@@ -1,4 +1,4 @@
-<table>
+<table id='table'>
   <tr>
     <td> <?php include '../article/comp/summary.php' ?> </td>
     <td> <?php include '../article/comp/video.php' ?> </td>
