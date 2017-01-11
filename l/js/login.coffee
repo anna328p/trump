@@ -11,7 +11,7 @@ $(document).ready ->
         data: "myusername=" + username + "&mypassword=" + password
         success: (html) ->
           if html is "true"
-            window.location = "index.php"
+            window.location = "../"
           else
             $("#message").html html
 
@@ -19,4 +19,3 @@ $(document).ready ->
           $("#message").html "<p class='text-center'><img src='images/ajax-loader.gif'></p>"
 
     false
-

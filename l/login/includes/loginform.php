@@ -51,7 +51,13 @@ class LoginForm extends DbConn
                     session_start();
 
                     $_SESSION['username'] = $myusername;
-
+                    $_SESSION['gender'] = $result['gender'];
+                    $_SESSION['age'] = $result['age'];
+                    $_SESSION['location'] = $result['location'];
+                    $_SESSION['income'] = $result['income'];
+                    $_SESSION['party'] = $result['party'];
+                    $_SESSION['ethnicity'] = $result['ethnicity'];
+                    
             } elseif (password_verify($mypassword, $result['password']) && $result['verified'] == '0') {
 
                 //Account not yet verified
