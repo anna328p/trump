@@ -11,16 +11,10 @@
 }
 .readMoreText {
   display: inline-block;
-<<<<<<< HEAD
   font-size: 23px;
   line-height: 50px;
   position: absolute;
   color: black;
-=======
-  font-size: 17px;
-  line-height: 50px;
-  position: absolute;
->>>>>>> 736f68abe84ca4982b6b146ed2e33150e408ca70
 }
 .links ul li {
   position: relative;
@@ -45,7 +39,6 @@ padding-bottom: 20px;
 }
 td {
   width: 50%;
-  padding-top: 0px;
 }
 .readMoreWebsites:hover {
   font-weight: bold;
@@ -55,4 +48,10 @@ td {
 }
 .list {
   font-size: 20px;
+}
+@media only screen and (max-width: 1120px) {
+  ['td'] {
+    display: block;
+  }
+
 }
