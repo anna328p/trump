@@ -4,6 +4,7 @@ Welcome to TrumpTracker, or whatever we decide to call this thing. Here is what 
 
 ##Instructions
 
+We should start off by saying that we assume you are on a Mac.
 First, go to your terminal. Check if you have git installed. If you are not sure type:
 
 ```git --version```
@@ -29,4 +30,4 @@ Now, make sure you have a GitHub account, I mean come on. You really should have
 After this, go download MAMP. https://www.mamp.info/en/
 Go to preferences, Web Serer and set your Document Root folder to the Trump folder. Start the server and navigate to localhost:8888
 
-If you see some text in the correct font, "Product Sans", you are good to go!
+If you see the homepage, you are good to go!
