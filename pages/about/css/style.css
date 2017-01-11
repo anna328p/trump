@@ -1,0 +1,31 @@
+.div-center-60{
+  width:60%;
+  margin-left: 20%;
+}
+
+.center{
+  text-align: center;
+}
+
+#head{
+  font-size: 4em;
+}
+
+#subHead{
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.question{
+  font-family: 'cleanMono', monospace;
+  font-size: 2.2em;
+}
+
+.moreSpacePlease{
+  margin-bottom: 25px;
+}
+
+.bottomMessage{
+  width: 70%;
+  margin-left:15%;
+}

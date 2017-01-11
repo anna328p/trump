@@ -55,7 +55,7 @@ if (isset($_SESSION['username'])) {
 
         <fieldset>
           <legend><span class="number">2</span> More details</legend>
-          <p id = "learnMore"><a href = "#">Learn more about why we collect this data</a></p>
+          <p id = "learnMore"><a href = "/pages/askdata">Learn more about why we collect this data</a></p>
           <label for "hidden3">State of Residence:</label>
           <input type = "hidden" name ="hidden3">
 

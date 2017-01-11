@@ -21,3 +21,33 @@ hr {
   color:grey;
   margin-top: -2px;
 }
+
+.otherTitle{
+  margin-top:-5px;
+}
+
+.section{
+  font-size:3.1em;
+  color: #404242;
+}
+
+.otherP{
+  margin-bottom: 30px;
+  font-size: 19px;
+}
+
+.signature{
+  font-size: 18px;
+}
+
+.asking{
+  color: red;
+}
+
+.what{
+  color: green;
+}
+
+.not{
+  color: blue;
+}
