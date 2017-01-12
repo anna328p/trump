@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Hallo;
+    src: url(../../resource/fonts/Hallo.otf);
+}
+
+
+.headContainer{
+  background-size: cover;
+  width:100%;
+  min-height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-shadow: 0.14vw 0.14vw white;
+}
+
+.headline{
+  font-size: 7vw;
+  text-align: center;
+  font-family: "Hallo";
+}
