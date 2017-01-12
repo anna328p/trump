@@ -1,4 +1,6 @@
-<?php require '../resource/head.php' ?>
+<?php
+ $ignorelogin = 'yes';
+ require '../resource/head.php' ?>
 
 <head>
   <title>Article View</title>
@@ -11,5 +13,7 @@
   <?php require '../resource/html/header.php' ?>
 
   <?php include 'comp/headline.php' ?>
+  <?php include 'comp/datePublished.php' ?>
+  <?php include 'comp/summary.php' ?>
 
   <?php require '../resource/html/footer.php' ?>

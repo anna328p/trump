@@ -20,3 +20,52 @@
   text-align: center;
   font-family: "Hallo";
 }
+
+.datePublishedContainer{
+  width:100%;
+  background: linear-gradient(270deg, #e6e89c, #78ca40, #00fbe7, #f7acff);
+  background-size: 800% 800%;
+  -webkit-animation: dateGradient 30s ease infinite;
+  -moz-animation: dateGradient 30s ease infinite;
+  animation: dateGradient 30s ease infinite;
+  min-height: 40px;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dateText{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+
+@media screen and (max-width: 777px) {
+    .dateText{
+      font-size: 2.2vw;
+    }
+}
+
+@-webkit-keyframes dateGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes dateGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes dateGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.summaryContainer{
+  width: 100%;
+  height: 50%;
+  background-color: red;
+}
