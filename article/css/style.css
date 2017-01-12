@@ -1,58 +1,72 @@
-.summary {
-  font-size: 35px;
-  border: 1px solid black;
+@font-face {
+    font-family: Hallo;
+    src: url(../../resource/fonts/Hallo.otf);
 }
-.summaryContent {
-  font-size: 20px;
-}
-.logo {
-  height: 50px;
-  border-radius: 50%;
-}
-.readMoreText {
-  display: inline-block;
-<<<<<<< HEAD
-  font-size: 23px;
-  line-height: 50px;
-  position: absolute;
-  color: black;
-=======
-  font-size: 17px;
-  line-height: 50px;
-  position: absolute;
->>>>>>> 736f68abe84ca4982b6b146ed2e33150e408ca70
-}
-.links ul li {
-  position: relative;
-}
-.readMore {
-  font-size: 35px;
-  text-decoration: none;
-}
-.title {
-  font-size: 60px;
 
+
+.headContainer{
+  background-size: cover;
+  width:100%;
+  min-height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-shadow: 0.14vw 0.14vw white;
 }
-.date {
-font-size: 20px;
-padding-bottom: 20px;
+
+.headline{
+  font-size: 7vw;
+  text-align: center;
+  font-family: "Hallo";
 }
-.prosCons {
-  font-size: 35px;
+
+.datePublishedContainer{
+  width:100%;
+  background: linear-gradient(270deg, #e6e89c, #78ca40, #00fbe7, #f7acff);
+  background-size: 800% 800%;
+  -webkit-animation: dateGradient 30s ease infinite;
+  -moz-animation: dateGradient 30s ease infinite;
+  animation: dateGradient 30s ease infinite;
+  min-height: 40px;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.list {
-  font-size: 20px;
-}
-td {
-  width: 50%;
-  padding-top: 0px;
-}
-.readMoreWebsites:hover {
+
+.dateText{
+  text-align: center;
   font-weight: bold;
+  font-size: 1.2vw;
 }
-.prosCons {
-  font-size: 30px;
+
+@media screen and (max-width: 777px) {
+    .dateText{
+      font-size: 2.2vw;
+    }
 }
-.list {
-  font-size: 20px;
+
+@-webkit-keyframes dateGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes dateGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes dateGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.summaryContainer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  background-color: red;
 }
