@@ -19,7 +19,7 @@
       ·
       <a href="/pages/about">About</a>
       ·
-      <a href="">Article</a>
+      <a href="/article">Article</a>
       ·
       <a href="/pages/contact">Contact</a>
     </p>

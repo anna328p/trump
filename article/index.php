@@ -1,22 +1,23 @@
 <?php
-$ignorelogin = 'yes';
-require '../resource/head.php'
-?>
+ $ignorelogin = 'yes';
+ require '../resource/head.php' ?>
+
 <head>
   <title>Article View</title>
-  <link rel="stylesheet" href="../article/css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <script src = "../resource/js/typewriter.js"></script>
+  <script src = "js/script.js"></script>
+  <link rel="stylesheet" href="../resource/css/font-awesome/css/font-awesome.min.css">
 </head>
+
 <body>
+  <?php require '../resource/html/header.php' ?>
 
-<?php include '../resource/html/header.php' ?>
+  <?php include 'comp/headline.php' ?>
+  <?php include 'comp/datePublished.php' ?>
+  <?php include 'comp/summary.php' ?>
+  <?php include 'comp/readMore.php' ?>
+  <?php include 'comp/pro.php' ?>
+  <?php include 'comp/con.php' ?>
 
-<div class='container'>
-  <?php include '../article/comp/title.php' ?>
-  <?php include '../article/comp/tableoutline.php' ?>
-  <?php include '../article/comp/ratingsubmission.php' ?>
-</div>
-
-<?php require '../resource/html/footer.php' ?>
-
-</body>
+  <?php require '../resource/html/footer.php' ?>

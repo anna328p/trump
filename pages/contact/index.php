@@ -47,11 +47,6 @@
   <!-- some social links to show off -->
   <ul class="profile-social-links">
     <li>
-      <a target="_blank" href="https://www.facebook.com/DonaldTracker">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
       <a target="_blank" href="https://twitter.com/DonaldTracker">
         <i class="fa fa-twitter"></i>
       </a>
