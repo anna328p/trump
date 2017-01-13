@@ -5,6 +5,7 @@
 <head>
   <title>Article View</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href='css/style2.css'>
   <script src = "../resource/js/typewriter.js"></script>
   <script src = "js/script.js"></script>
   <link rel="stylesheet" href="../resource/css/font-awesome/css/font-awesome.min.css">
@@ -19,5 +20,6 @@
   <?php include 'comp/readMore.php' ?>
   <?php include 'comp/pro.php' ?>
   <?php include 'comp/con.php' ?>
+  <?php include 'comp/video.php' ?>
 
   <?php require '../resource/html/footer.php' ?>
