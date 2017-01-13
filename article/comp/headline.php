@@ -1,5 +1,5 @@
 <?php
-      $url = "http://blog.noplag.com/wp-content/uploads/2016/12/Use-Phones-In-School-2-1.gif";
+      $url = "http://static.politifact.com.s3.amazonaws.com/politifact/photos/trump2.jpg";
       $articleName = "Trump's innaguration speech";
  ?>
 

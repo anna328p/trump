@@ -3,9 +3,24 @@
     src: url(../../resource/fonts/Hallo.otf);
 }
 
+.borderPlease{
+  border-color: black;
+  border-style: solid;
+  border-width: 0px 0px 0.2vw 0px;
+}
+
+.tableTitle{
+  font-family: "Hallo";
+  font-size: calc(1.3em + 4vw);
+  padding-left: 1vw;
+  padding-right: 1vw;
+  text-shadow: 0.05vw 0.05vw white;
+}
+
 
 .headContainer{
   background-size: cover;
+  background-position: center;
   width:100%;
   min-height: 25%;
   display: flex;
@@ -16,18 +31,21 @@
 }
 
 .headline{
-  font-size: 7vw;
+  font-size: calc(2.7em + 4vw);
   text-align: center;
   font-family: "Hallo";
 }
 
 .datePublishedContainer{
+  border-color: black;
+  border-style: solid;
+  border-width: 0.2vw 0px 0.2vw 0px;
   width:100%;
   background: linear-gradient(270deg, #e6e89c, #78ca40, #00fbe7, #f7acff);
   background-size: 800% 800%;
-  -webkit-animation: dateGradient 30s ease infinite;
-  -moz-animation: dateGradient 30s ease infinite;
-  animation: dateGradient 30s ease infinite;
+  -webkit-animation: easyGradient 30s ease infinite;
+  -moz-animation: easyGradient 30s ease infinite;
+  animation: easyGradient 30s ease infinite;
   min-height: 40px;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
@@ -39,34 +57,98 @@
 .dateText{
   text-align: center;
   font-weight: bold;
-  font-size: 1.2vw;
-}
-
-@media screen and (max-width: 777px) {
-    .dateText{
-      font-size: 2.2vw;
-    }
-}
-
-@-webkit-keyframes dateGradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes dateGradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes dateGradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  font-size: calc(0.5em + 0.6vw);
 }
 
 .summaryContainer{
   padding-top: 2%;
   padding-bottom: 2%;
+  padding-right: 1.4%;
   width: 100%;
-  background-color: red;
+  background: linear-gradient(270deg, #b3e8da, #e0e8b3, #bae8b3, #e8bdb3);
+  background-size: 800% 800%;
+  -webkit-animation: easyGradient 30s ease infinite;
+  -moz-animation: easyGradient 30s ease infinite;
+  animation: easyGradient 30s ease infinite;
+}
+
+.summary{
+   font-size: calc(0.5em + 1vw);
+}
+
+.readMoreContainer{
+  background: linear-gradient(270deg, #fbfabc, #fbbcbc, #c6bcfb);
+  background-size: 600% 600%;
+  -webkit-animation: easyGradient 15s ease infinite;
+  -moz-animation: easyGradient 15s ease infinite;
+  animation: easyGradient 15s ease infinite;
+}
+
+.newsIcon{
+  width: calc(2.3em + 3.3vw);
+  margin-right: 8vw;
+}
+
+#tableIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proContainer{
+  background: linear-gradient(154deg, #8ce859, #9cd4ad, #1bd03a);
+  background-size: 600% 600%;
+  -webkit-animation: easyGradient 30s ease infinite;
+  -moz-animation: easyGradient 30s ease infinite;
+  animation: easyGradient 30s ease infinite;
+}
+
+.pro{
+  font-size: calc(10px + 0.7vw);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+.conContainer{
+  background: linear-gradient(270deg, #f51414, #f95e4d);
+  background-size: 400% 400%;
+  -webkit-animation: easyGradient 30s ease infinite;
+  -moz-animation: easyGradient 30s ease infinite;
+  animation: easyGradient 30s ease infinite;
+}
+
+.con{
+  font-size: calc(10px + 0.7vw);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Animations*/
+
+@media screen and (max-width: 777px) {
+
+.newsIcon{
+  margin-right: 4vw;
+}
+
+}
+
+@-webkit-keyframes easyGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes easyGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes easyGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
