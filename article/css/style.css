@@ -127,6 +127,35 @@
   text-align: center;
 }
 
+.rateContainer{
+  background: linear-gradient(270deg, #fd4e4e, #f9c84d, #44f23b, #f2c63b);
+  background-size: 800% 800%;
+  -webkit-animation: easyGradient 30s ease infinite;
+  -moz-animation: easyGradient 30s ease infinite;
+  animation: easyGradient 30s ease infinite;
+}
+
+
+.rateSub{
+  font-size: calc(14px + 0.6vw);
+}
+
+.rateForm{
+  margin-right: 3vw;
+}
+
+.fullWidth{
+  width: 100%;
+}
+
+.rateSelect{
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  text-align-last:center;
+  margin-bottom: -10px;
+}
+
 /*Animations*/
 
 @media screen and (max-width: 777px) {
