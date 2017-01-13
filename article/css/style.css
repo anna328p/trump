@@ -135,6 +135,27 @@
   animation: easyGradient 30s ease infinite;
 }
 
+
+.rateSub{
+  font-size: calc(14px + 0.6vw);
+}
+
+.rateForm{
+  margin-right: 3vw;
+}
+
+.fullWidth{
+  width: 100%;
+}
+
+.rateSelect{
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  text-align-last:center;
+  margin-bottom: -10px;
+}
+
 /*Animations*/
 
 @media screen and (max-width: 777px) {

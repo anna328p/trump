@@ -20,6 +20,6 @@
   <?php include 'comp/con.php' ?>
   <?php include 'comp/countdown.php' ?>
   <?php include 'comp/video.php' ?>
-  <?php include 'comp/rate.php' ?>
+  <?php if (isset($_SESSION['username'])) { include 'comp/rate.php'; } ?>
 
   <?php require '../resource/html/footer.php' ?>
