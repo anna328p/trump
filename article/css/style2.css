@@ -1,0 +1,17 @@
+.videoContainer {
+background: linear-gradient(270deg, #fcff74, #fdd369);
+background-size: 400% 400%;
+
+-webkit-animation: easyGradient 28s ease infinite;
+-moz-animation: easyGradient 28s ease infinite;
+animation: easyGradient 28s ease infinite;
+}
+.videoTitle {
+  max-width: 220px;
+}
+.video {
+  min-width: 100px;
+}
+.video2 {
+  min-width: 100px;
+}
