@@ -127,6 +127,14 @@
   text-align: center;
 }
 
+.rateContainer{
+  background: linear-gradient(270deg, #fd4e4e, #f9c84d, #44f23b, #f2c63b);
+  background-size: 800% 800%;
+  -webkit-animation: easyGradient 30s ease infinite;
+  -moz-animation: easyGradient 30s ease infinite;
+  animation: easyGradient 30s ease infinite;
+}
+
 /*Animations*/
 
 @media screen and (max-width: 777px) {

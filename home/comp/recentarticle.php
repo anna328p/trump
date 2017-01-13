@@ -1,8 +1,8 @@
 <div class = "articleContainer">
   <table>
     <tr>
-      <td><a href="#"><div class = "recentEvent monospace">Trump reverses common core</div></a></td>
-      <td><div class = "recentEventDate monospace">March 21st</div></td>
+      <td><a href="#"><div class = "recentEvent monospace">Trump's inaguration speech</div></a></td>
+      <td><div class = "recentEventDate monospace">January 20th</div></td>
     </tr>
     <tr>
       <td><div class = "monospace voteAvailable">Voting for this topic is still available.</div></td>
