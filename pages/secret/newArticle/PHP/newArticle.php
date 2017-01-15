@@ -1,5 +1,7 @@
 <?php
 
+require '../../../../resource/PHP/dbInfo.php';
+
 $name = $_POST["name"];
 $image = $_POST["image"];
 $pDate = $_POST["pDate"];
@@ -18,26 +20,26 @@ $pro = $_POST["pro"];
 $con = $_POST["con"];
 $YT1 = $_POST["YT1"];
 $YT2 = $_POST["YT2"];
-$end = $_POST["end"];
+$endD = $_POST["endD"];
 
-echo $name;
-echo $image;
-echo $pDate;
-echo $pDateFormat;
-echo $week;
-echo $summary;
-echo $nS1;
-echo $nL1;
-echo $nS2;
-echo $nL2;
-echo $nS3;
-echo $nL3;
-echo $nS4;
-echo $nL4;
-echo $pro;
-echo $con;
-echo $YT1;
-echo $YT2;
-echo $end;
+$dbname = "posts";
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+$sql = "INSERT INTO articles (name, image, pDate, pDateFormat, week, summary, nS1, nL1, nS2, nL2, nS3, nL3, nS4, nL4, pro, con, YT1, YT2, endD)
+VALUES ('$name', '$image', '$pDate', '$pDateFormat', '$week', '$summary', '$nS1', '$nL1', '$nS2', '$nL2' , '$nS3', '$nL3', '$nS4', '$nL4', '$pro', '$con', '$YT1', '$YT2', '$endD')";
+
+if (mysqli_query($conn, $sql)) {
+    echo "New article created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+}
+
+mysqli_close($conn);
 
 ?>

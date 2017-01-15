@@ -7,11 +7,15 @@ if($ignorelogin!='yes'){
   }
 }
 
+  $dbInfo = $_SERVER['DOCUMENT_ROOT'];
+  $dbInfo .= "/resource/PHP/dbInfo.php";
+  include_once($dbInfo);
+
  ?>
 
 <head>
 
-<meta name="apple-mobile-web-app-capable" content="yes">  
+<meta name="apple-mobile-web-app-capable" content="yes">
 
 <link rel="icon" href="/resource/images/logos/icons/blackicon.png" type="image/gif" sizes="16x16">
 

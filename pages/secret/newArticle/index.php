@@ -126,7 +126,7 @@ Youtube Link 2:
 <input type = "text" name = "YT2">
 
 End Date:
-<input type = "date" name = "end">
+<input type = "date" name = "endD">
 
 Password:
 <input type = "password" name = "password">
