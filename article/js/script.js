@@ -4,8 +4,13 @@ $(document).ready(function(){
     speed: 60
   });
 
-  $('select').material_select();
 
-  $('input[type="range"]').val(10).change();
+  $(function() {
+        $('#rate').barrating({
+          theme: 'bars-1to10',
+          initialRating: 5,
+          showValues: true
+        });
+     });
 
 });

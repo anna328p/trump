@@ -9,7 +9,8 @@ if (isset($_SESSION['username'])) {
 <?php
 $ignorelogin = 'yes';
 $material = 'block';
-require '../../resource/head.php' ?>
+require '../../resource/head.php'
+ ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +22,6 @@ require '../../resource/head.php' ?>
     <link href="../css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="../css/main.css" rel="stylesheet" media="screen">
   </head>
-
   <body>
     <div class="container">
 
@@ -36,11 +36,12 @@ require '../../resource/head.php' ?>
         -->
         <button name="Submit" id="submit" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 
+
         <div id="message"></div>
+        <a href = "signup.php">Create an account</a>
       </form>
 
     </div> <!-- /container -->
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-2.2.4.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
