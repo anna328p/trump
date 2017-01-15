@@ -154,8 +154,7 @@
 }
 
 #buttonRateContainer{
-  float: right;
-  padding-right: 3.7vw;
+  padding-right: 4.9vw;
 }
 
 
@@ -166,7 +165,7 @@
   color: #2194E0;
   background-color: lightblue;
   border: 2px solid #2194E0;
-  font-size: 24px;
+  font-size: calc(10px + 0.7vw);
   display: inline-block;
   border-radius: 0.3em;
   -webkit-transition: all 0.2s ease-in-out;

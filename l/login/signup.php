@@ -152,7 +152,7 @@ if (isset($_SESSION['username'])) {
             <option value = "asian">Asian</option>
             <option value = "hawaiian">Native Hawaiian or other Pacific Islander</option>
             <option value = "other">Other</option>
-            <option value = "nosay">Prefer not to say<option>
+            <option value = "nosay">Prefer not to say</option>
           </select>
 
         </fieldset>
