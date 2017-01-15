@@ -1,6 +1,6 @@
-#TrumpTracker
+#DonaldTracker
 
-Welcome to TrumpTracker, or whatever we decide to call this thing. Here is what you need to get started.
+Welcome to DonaldTracker, don't steal our code without permission. Well, if get our permission, it's no longer stealing :)
 
 ##Instructions
 
@@ -28,6 +28,6 @@ Now, make sure you have a GitHub account, I mean come on. You really should have
 `git config user.email "your_email@example.com"`
 
 After this, go download MAMP. https://www.mamp.info/en/
-Go to preferences, Web Serer and set your Document Root folder to the Trump folder. Start the server and navigate to localhost:8888
+Go to preferences, Web Server and set your Document Root folder to the Trump folder. Start the server and navigate to localhost:8888
 
 If you see the homepage, you are good to go!
