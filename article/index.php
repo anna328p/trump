@@ -5,7 +5,6 @@
 <head>
   <title>Article View</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href='css/style2.css'>
   <link rel="stylesheet" href="css/rating.css">
   <script src = "js/rating.js"></script>
   <script src = "../resource/js/typewriter.js"></script>
