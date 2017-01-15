@@ -5,16 +5,16 @@
 .br-theme-bars-1to10 .br-widget a {
   display: block;
   border-radius: 0.3vw;
-  width: calc(10px + 6vw);
+  width: calc(10px + 4.9vw);
   padding: 5px 0;
-  height: calc(10px + 6vw);
+  height: calc(10px + 4.9vw);
   float: left;
   background-color: #EDB867;
   margin: 0.2vw;
   text-align: center;
   color: rgba(255,255,255,.8);
   font-size: calc(10px + 1vw);
-  padding-top: 2.3vw;
+  padding-top: 1.75vw;
 }
 .br-theme-bars-1to10 .br-widget a.br-active,
 .br-theme-bars-1to10 .br-widget a.br-selected {

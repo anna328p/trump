@@ -23,7 +23,7 @@
                   <option value="10">10</option>
                 </select>
               </td>
-              <td><button id = "submitButton" type = "submit"<a class="waves-effect waves-light btn-large">RATE</a></button></td>
+              <td><div id = "buttonRateContainer"><button class="button">Submit</button></div></td>
             </tr>
           </table>
         </form>
