@@ -8,7 +8,6 @@ $(document).ready(function(){
   $(function() {
         $('#rate').barrating({
           theme: 'bars-1to10',
-          initialRating: 5,
           showValues: true
         });
      });

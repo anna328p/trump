@@ -1,19 +1,19 @@
 $(document).ready(function(){
 
 //Get the main score and change the CSS for the circle
-var mainScore = $("#mainHiddenScore").text();
+var mainScore = $("#mScore").text();
 var mainColorScore = mainScore/10;
-$(".larger").css("background-color", getColorForPercentage(mainColorScore));
+$("#mScore").css("background-color", getColorForPercentage(mainColorScore));
 
 //Get the republican score and change the CSS for it's circle
-var rScore = $("#republicanHiddenScore").text();
+var rScore = $("#repScore").text();
 var rColorScore = rScore/10;
-$(".rscore").css("background-color", getColorForPercentage(rColorScore));
+$("#repScore").css("background-color", getColorForPercentage(rColorScore));
 
 //Get the democratic score and change the CSS for it's circle
-var dScore = $("#democratHiddenScore").text();
+var dScore = $("#demScore").text();
 var dColorScore = dScore/10;
-$(".dscore").css("background-color", getColorForPercentage(dColorScore));
+$("#demScore").css("background-color", getColorForPercentage(dColorScore));
 
 function showItems(){
 
