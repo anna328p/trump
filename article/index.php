@@ -1,6 +1,10 @@
 <?php
  $ignorelogin = 'yes';
- require '../resource/head.php' ?>
+ require '../resource/head.php';
+
+ require 'PHP/getData.php';
+
+ ?>
 
 <head>
   <title>Article View</title>

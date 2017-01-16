@@ -5,10 +5,10 @@
       <td>
           <table id = "tableIcons">
             <tr>
-              <td><a href = "#"><img class = "newsIcon" src = "http://icons.iconarchive.com/icons/martz90/circle-addon1/512/cnn-icon.png" /></a></td>
-              <td><a href = "#"><img class = "newsIcon" src = "http://icons.iconarchive.com/icons/martz90/circle/512/bbc-news-icon.png" /></a></td>
-              <td><a href = "#"><img class = "newsIcon" src = "http://icons.iconarchive.com/icons/martz90/circle-addon1/512/new-york-times-icon.png" /></a></td>
-              <td><a href = "#"><img class = "newsIcon" src = "https://callnerds.com/wp-content/plugins/nerds-functionality/assets/img/logos/ABC-logo.svg" /></a></td>
+              <td><a href = "<?php echo $nL1 ?>"><img class = "newsIcon" src = "images/newsIcons/<?php echo $nS1?>.png" /></a></td>
+              <td><a href = "<?php echo $nL2 ?>"><img class = "newsIcon" src = "images/newsIcons/<?php echo $nS2?>.png" /></a></td>
+              <td><a href = "<?php echo $nL3 ?>"><img class = "newsIcon" src = "images/newsIcons/<?php echo $nS3?>.png" /></a></td>
+              <td><a href = "<?php echo $nL4 ?>"><img class = "newsIcon" src = "images/newsIcons/<?php echo $nS4?>.png" /></a></td>
             </tr>
           </table>
       </td>

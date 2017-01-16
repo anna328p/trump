@@ -22,7 +22,7 @@ $YT1 = $_POST["YT1"];
 $YT2 = $_POST["YT2"];
 $endD = $_POST["endD"];
 
-$dbname = "posts";
+$dbname = $dbPosts;
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
