@@ -1,15 +1,9 @@
 <?php
   $ignorelogin='yes';
-  require './../resource/head.php'
+  require './../resource/head.php';
+  require 'PHP/getData.php';
   ?>
 
-<?php
-
-$mainScore = 5.3;
-$republicanScore = 7.2;
-$democratScore = 4.5;
-
- ?>
 <head>
 
 <title>DonaldTracker</title>
@@ -39,12 +33,6 @@ $democratScore = 4.5;
 
 
 <body>
-
-<!--Hiddens to pass from PHP to JS-->
-<p class ="hidden" id = "mainHiddenScore"><?php echo $mainScore ?></p>
-<p class ="hidden" id = "republicanHiddenScore"><?php echo $republicanScore ?></p>
-<p class ="hidden" id = "democratHiddenScore"><?php echo $democratScore ?></p>
-
 
 <!--Main page-->
 <?php require '../resource/html/header.php' ?>

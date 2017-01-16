@@ -5,6 +5,7 @@
     <td>
       <div class = "rateForm">
         <form action = "PHP/sendScore.php" method = "POST">
+          <input type = "hidden" name = "article" value = "<?php echo $name?>">
           <input type = "hidden" name = "week" value = "<?php echo $weekNumber ?>">
           <input type = "hidden" name = "user" value = "<?php echo $_SESSION["username"] ?>">
           <input type = "hidden" name = "gender" value = "<?php echo $_SESSION["gender"] ?>">
@@ -24,9 +25,9 @@
                   <option value="3">3</option>
                   <option value="4">4</option>
                   <option value="5">5</option>
-                  <option value="six">6</option>
+                  <option value="6">6</option>
                   <option value="7">7</option>
-                  <option value="6">8</option>
+                  <option value="8">8</option>
                   <option value="9">9</option>
                   <option value="10">10</option>
                 </select>

@@ -2,7 +2,7 @@
 
 require '../../resource/PHP/dbInfo.php';
 
-
+$article = $_POST["article"];
 $week = $_POST["week"];
 $user = $_POST["user"];
 $gender = $_POST["gender"];
@@ -34,7 +34,7 @@ else{
   VALUES ('$week', '$user', '$gender', '$age', '$location', '$income', '$party', '$ethnicity', '$score')";
 
   if (mysqli_query($conn, $sql)) {
-      echo "Thanks for rating!";
+      echo "<script>window.location = '../messages/success?article=$article&score=$score'</script>";
   } else {
       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
   }
