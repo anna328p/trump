@@ -1,15 +1,23 @@
 <div class = "rateContainer borderPlease">
-
 <table>
   <tr>
     <td><div class = "rateTitle tableTitle">Rate</div></td>
     <td>
       <div class = "rateForm">
-        <form>
+        <form action = "PHP/sendScore.php" method = "POST">
+          <input type = "hidden" name = "week" value = "<?php echo $weekNumber ?>">
+          <input type = "hidden" name = "user" value = "<?php echo $_SESSION["username"] ?>">
+          <input type = "hidden" name = "gender" value = "<?php echo $_SESSION["gender"] ?>">
+          <input type = "hidden" name = "age" value = "<?php echo $_SESSION["age"] ?>">
+          <input type = "hidden" name = "location" value = "<?php echo $_SESSION["location"] ?>">
+          <input type = "hidden" name = "income" value = "<?php echo $_SESSION["income"] ?>">
+          <input type = "hidden" name = "party" value = "<?php echo $_SESSION["party"] ?>">
+          <input type = "hidden" name = "ethnicity" value = "<?php echo $_SESSION["ethnicity"] ?>">
+
           <table>
             <tr>
               <td>
-                <select id="rate">
+                <select name = "score" id="rate">
                   <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
