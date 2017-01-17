@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 if($ignorelogin!='yes'){
   session_start();
   if (!isset($_SESSION['username'])) {

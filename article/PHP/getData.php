@@ -1,5 +1,4 @@
 <?php
-
 $weekNumber = $_GET["w"];
 $dbname = $dbPosts;
 
