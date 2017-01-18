@@ -102,6 +102,10 @@
 
 @media all and (max-width: 600px) {
 
+	#logoutButton{
+		margin-top: -10px;
+	}
+
 	.header-login-signup {
 		padding: 25px;
 		height: 50px;

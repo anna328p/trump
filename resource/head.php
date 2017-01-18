@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 if($ignorelogin!='yes'){
   session_start();
   if (!isset($_SESSION['username'])) {
@@ -9,7 +11,7 @@ if($ignorelogin!='yes'){
 
   $dbInfo = $_SERVER['DOCUMENT_ROOT'];
   $dbInfo .= "/resource/PHP/dbInfo.php";
-  include_once($dbInfo);
+  include($dbInfo);
 
  ?>
 
@@ -43,7 +45,6 @@ if($ignorelogin!='yes'){
 
 <!--Animate.css-->
 <link rel='stylesheet' type='text/css' href='/resource/css/animate.css'>
-
 
 <!--Default.css-->
 <link rel='stylesheet' type='text/css' href='/resource/default.css'>

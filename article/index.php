@@ -1,8 +1,8 @@
 <?php
  $ignorelogin = 'yes';
  require '../resource/head.php';
-
  require 'PHP/getData.php';
+ require 'PHP/alreadyVoted.php';
 
  ?>
 
@@ -25,6 +25,10 @@
   <?php include 'comp/con.php' ?>
   <?php include 'comp/countdown.php' ?>
   <?php include 'comp/video.php' ?>
-  <?php if (isset($_SESSION['username'])) { include 'comp/rate.php'; } ?>
+  <?php if (isset($_SESSION['username'])) {
+    if($hasVoted === false){
+      include 'comp/rate.php';
+    }// if already voted
+  }// if logged in ?>
 
   <?php require '../resource/html/footer.php' ?>

@@ -6,7 +6,7 @@ body{
   text-align: center;
   font-size: calc(40px + 1.2vw);
   color: white;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .count{
@@ -16,7 +16,7 @@ body{
 }
 
 #trumpPic{
-   width: calc(40px + 60%);
+   width: calc(40px + 55%);
    margin-left: 20%;
    display:block;
    margin-left:auto;
@@ -35,4 +35,5 @@ body{
   color:white;
   text-align: center;
   font-size: calc(10px + 0.5vw);
+  margin-bottom: 30px;
 }

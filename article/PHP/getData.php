@@ -1,5 +1,4 @@
 <?php
-
 $weekNumber = $_GET["w"];
 $dbname = $dbPosts;
 
@@ -38,9 +37,14 @@ if (mysqli_num_rows($result) > 0) {
       $YT2 = $article["YT2"];
       $endD = $article["endD"];
 
-    }
-} else {
-    echo "0 results";
+    } //end of while
+}//end of if
+
+else {
+  $elseURL = "/pages/shortcuts/latestArticle";
+  ?>
+  <script>window.location = '<?php echo $elseURL ?>'</script>
+  <?php
 }
 
 mysqli_close($conn);
