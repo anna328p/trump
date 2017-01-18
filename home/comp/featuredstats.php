@@ -18,6 +18,27 @@
         <tr><td><div class = "featuredS">Younger than 20</td></tr>
       </table>
     </li>
+    <?php if (!isset($_SESSION['username'])) { //if no username ?>
+
+      <li>
+        <div class = "moreComingSoon">To see more stats surrounding different ethnicities, income brackets, location, ages, political parties and more, create an account and login!</div>
+      </li>
+      <style>
+      .moreComingSoon{
+        margin-top: 16px;
+        color: white;
+        background-color: #778899;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        width: 35%;
+        font-size: 20px;
+      }
+      </style>
+
+
+
+       <?php } else { //if username  ?>
     <li>
       <table>
         <tr><td><div class = "featuredC" id = "listItem4"><?php getMoreThanAgeScore(20) ?></td></tr>
@@ -63,15 +84,20 @@
     </li>
   -->
   <li>
-    <div class = "moreComingSoon">Today is our first day so we don't have too much data. Once we have a large enough sample size, we will be sharing scores from different ethnicties, income brackets, political parties, locations, and more! So make sure to vote and stay tuned for more stats!</div>
+    <div class = "moreComingSoon">Today is our first day, so we don't have too much data. Once we have a large enough sample size, we will be sharing scores from different ethnicties, income brackets, political parties, locations, and more! So make sure to vote and stay tuned for more stats!</div>
   </li>
   <style>
   .moreComingSoon{
-    margin-top: 10px;
+    margin-top:25px;
+    color: white;
+    background-color: #778899;
+    padding: 10px;
+    border-radius: 10px;
     text-align: center;
     width: 28%;
     font-size: 17px;
-
+  }
   </style>
+    <?php } ?>
 </ul>
 </div>

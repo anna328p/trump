@@ -1,1 +1,1 @@
-<div class = "signature">Thanks for understanding. If you have any other questions, feel free to <a class = "monospace" href = "#">contact us.</a> Or, if you want to create an account, <a class = "monospace" href = "#">click here.</a></div>
+<div class = "signature">Thanks for understanding. If you have any other questions, feel free to <a class = "monospace" href = "../contact">contact us.</a> Or, if you want to create an account, <a class = "monospace" href = "../../l/login/signup.php">click here.</a></div>
