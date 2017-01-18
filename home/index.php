@@ -8,6 +8,8 @@
 
 <title>DonaldTracker</title>
 
+
+
 <!--Mobile icon for iOS-->
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../resource/images/logos/icons/whiteicon.png">
 
@@ -15,7 +17,7 @@
 <link rel="stylesheet" href="../resource/css/chart/chart.css">
 <link rel="stylesheet" href="../home/css/mychart.css">
 <script src ="../resource/js/chart/chart.js"></script>
-<script src="../home/js/mychart.js"></script>
+<?php include 'js/mychart.php' ?> <!--aka <script src = "mychart.js"> -->
 
 <!--To get that slider in here!-->
 <link rel="stylesheet" href="../resource/css/lightslider.css">
@@ -27,10 +29,9 @@
 
 <!--To add my own things -->
 <link rel="stylesheet" href="../home/css/style.css">
-<script src="../home/js/script.js"></script>
+<?php include 'js/script.php' ?>
 
 </head>
-
 
 <body>
 
@@ -49,6 +50,7 @@
 <?php include '../home/comp/featuredstats.php' ?>
 <?php include '../home/comp/recentarticle.php' ?>
 <?php include '../home/comp/shortcuts.php' ?>
+
 
 </div>
 

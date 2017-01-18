@@ -2,28 +2,29 @@
 <ul id="featuredSlider" class="content-slider">
     <li>
       <table>
-        <tr><td><div class = "featuredC" id = "listItem1">4.3</td></tr>
-        <tr><td><div class = "featuredS">Latino</td></tr>
+        <tr><td><div class = "featuredC" id = "listItem1"><?php getGenderScore("male") ?></td></tr>
+        <tr><td><div class = "featuredS">Men</td></tr>
       </table>
     </li>
     <li>
       <table>
-        <tr><td><div class = "featuredC" id = "listItem2">7.1</td></tr>
-        <tr><td><div class = "featuredS">White Men</td></tr>
-      </table>
-    </li>
-    <li>
-      <table>
-        <tr><td><div class = "featuredC" id = "listItem3">3.8</td></tr>
-        <tr><td><div class = "featuredS">Less than 20</td></tr>
-      </table>
-    </li>
-    <li>
-      <table>
-        <tr><td><div class = "featuredC" id = "listItem4">2.2</td></tr>
+        <tr><td><div class = "featuredC" id = "listItem2"><?php getGenderScore("female") ?></td></tr>
         <tr><td><div class = "featuredS">Women</td></tr>
       </table>
     </li>
+    <li>
+      <table>
+        <tr><td><div class = "featuredC" id = "listItem3"><?php getLessThanAgeScore(20) ?></td></tr>
+        <tr><td><div class = "featuredS">Younger than 20</td></tr>
+      </table>
+    </li>
+    <li>
+      <table>
+        <tr><td><div class = "featuredC" id = "listItem4"><?php getMoreThanAgeScore(20) ?></td></tr>
+        <tr><td><div class = "featuredS">Older than 20</td></tr>
+      </table>
+    </li>
+    <!--
     <li>
       <table>
         <tr><td><div class = "featuredC" id = "listItem5">5.1</td></tr>
@@ -60,5 +61,17 @@
         <tr><td><div class = "featuredS">New Yorkers</td></tr>
       </table>
     </li>
+  -->
+  <li>
+    <div class = "moreComingSoon">Today is our first day so we don't have too much data. Once we have a large enough sample size, we will be sharing scores from different ethnicties, income brackets, political parties, locations, and more! So make sure to vote and stay tuned for more stats!</div>
+  </li>
+  <style>
+  .moreComingSoon{
+    margin-top: 10px;
+    text-align: center;
+    width: 28%;
+    font-size: 17px;
+
+  </style>
 </ul>
 </div>

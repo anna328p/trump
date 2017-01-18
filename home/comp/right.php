@@ -7,7 +7,7 @@
 
 <td>  <!--Circle here-->
 
-<div id = "repScore" class = "circle getScore smaller rscore">
+<div id = "repScore" class = "circle getScore smaller rScore">
 <?php echo $republicanScore ?>
 </div>
 
@@ -23,7 +23,7 @@
 
 <td>
 
-  <div id = "demScore" class = "circle getScore smaller dscore">
+  <div id = "demScore" class = "circle getScore smaller dScore">
   <?php echo $democratScore ?>
   </div>
 
