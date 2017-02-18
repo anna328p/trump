@@ -1,6 +1,6 @@
 #DonaldTracker
 
-Welcome to DonaldTracker, don't steal our code without permission. Well, if get our permission, it's no longer stealing :)
+Welcome to DonaldTracker, don't steal our code without permission. Well, if you get our permission, it's no longer stealing :)
 
 ##Instructions
 
